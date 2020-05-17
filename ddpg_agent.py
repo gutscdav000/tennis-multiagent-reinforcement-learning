@@ -55,7 +55,7 @@ class Agent():
 
         # Noise process
         self.epsilon = EPSILON
-        self.noise = OUNoise(action_size, random_seed)
+        self.noise = OUNoise(action_size, random_seed, mu=0., theta=0.15, sigma=0.1)
 
         # Replay memory
         self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, random_seed)

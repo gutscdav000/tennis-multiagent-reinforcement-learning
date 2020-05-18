@@ -98,7 +98,7 @@ For this Project I used the a Multi-Agent Deep Deterministic Policy Gradient (e.
 
 ###  Plot of Rewards
 
-![](reward_to_epoch.png)
+![](rewards_to_epoch.png)
 
 ### Ideas for future work
 

@@ -2,23 +2,15 @@ import numpy as np
 import random
 import copy
 from collections import namedtuple, deque
-
-from model import ActorModel, CriticModel
 from hyperparameters  import *
-
+from model import Actor, Critic
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
-
-# #############################hyperparams
-
 import numpy as np
 import random
 import copy
 from collections import namedtuple, deque
-
-# from model import Actor, Critic
-
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
